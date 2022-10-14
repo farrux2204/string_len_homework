@@ -7,5 +7,5 @@ def main(s):
         string
     """
     a=len(s)
-    return "*"* a
+    return '*'* a
 print(main("hi"))

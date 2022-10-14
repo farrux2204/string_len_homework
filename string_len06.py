@@ -8,7 +8,7 @@ def main(s1,s2):
         shortest string
     """
     if len(s1)>len(s2):
-        return len(s2)
-    if len(s1)<len(s2):
-        return len(s1)
+        return s2
+    else:
+        return s1
 print(main("hello","bikeked"))

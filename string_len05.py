@@ -7,8 +7,5 @@ def main(s1,s2):
     Returns:
         total length of strings
     """
-    s=len(s1)
-    a=len(s2)
-    y=f'{s}+{a}={s+a}'
-    return y
+    return len(s1)+len(s2)
 print(main("hi","ki"))

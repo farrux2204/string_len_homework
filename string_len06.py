@@ -9,6 +9,6 @@ def main(s1,s2):
     """
     if len(s1)>len(s2):
         return s2
-    else:
+    else: 
         return s1
-print(main("hello","bikeked"))
+print(main("hello","bikeked"))   

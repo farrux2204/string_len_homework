@@ -11,12 +11,12 @@ def main(s1,s2,s3):
     a=len(s1)
     b=len(s2)
     c=len(s3)
-    odd = []
+    odd = ''
     if a%2==1:
-        odd += [s1]
+        odd += s1+", "
     if b%2==1:
-        odd += [s2]
+        odd += s2+", "
     if c%2==1:
-        odd += [s3]
-    return odd
-print(main('hello','salom','bonju'))
+        odd += s3
+    return  '['+odd+']'
+print(main('besht','saloma','aaa'))
